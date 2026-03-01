@@ -1,7 +1,7 @@
 (() => {
   const DYNAMIC_WORD_ID = "dynamic-word";
   const JSON_PATH = "./data/new-words.json";
-  const INTERVAL_MS = 5000;
+  const INTERVAL_MS = 3000;
   const FADE_DURATION_MS = 650;
 
   const wordEl = document.getElementById(DYNAMIC_WORD_ID);

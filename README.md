@@ -6,7 +6,7 @@ A minimalist static landing page for **karyabaru** with a rotating multilingual 
 
 - `index.html` - single-page markup
 - `styles.css` - minimalist layout and animation styles
-- `script.js` - loads JSON and rotates the dynamic word every 5 seconds
+- `script.js` - loads JSON and rotates the dynamic word every 3 seconds
 - `data/new-words.json` - source words for the rotating suffix
 - `CNAME` - custom domain for GitHub Pages
 
