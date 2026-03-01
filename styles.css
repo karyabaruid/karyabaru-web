@@ -1,0 +1,52 @@
+:root {
+  --brand-purple: #6f2cff;
+  --fade-duration: 650ms;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #ffffff;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  font-family: "Helvetica Neue", "Avenir Next", "Segoe UI", "Noto Sans", sans-serif;
+}
+
+.page {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+}
+
+.wordmark {
+  margin: 0;
+  color: var(--brand-purple);
+  font-size: clamp(3rem, 12vw, 9rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  text-align: center;
+}
+
+.dynamic-word {
+  display: inline-block;
+  opacity: 1;
+  transition: opacity var(--fade-duration) ease;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
