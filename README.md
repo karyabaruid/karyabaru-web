@@ -49,7 +49,7 @@ Rules:
 
 ## Custom domain setup
 
-1. In **Settings -> Pages**, set your custom domain to match `CNAME` (`karyabaru.com`).
+1. In **Settings -> Pages**, set your custom domain to match `CNAME` (`karyabaru.id`).
 2. Configure DNS at your registrar:
 - Apex/root domain: use `A` or `ALIAS/ANAME` records as supported
 - `www` subdomain: use `CNAME` to your GitHub Pages host
